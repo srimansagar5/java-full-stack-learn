@@ -54,3 +54,34 @@ Welcome! This guide will help you set up IntelliJ IDEA Community Edition and run
 Next step → Start exploring OOP basics (Classes, Objects, Inheritance).
 
 Happy coding ✨
+
+# Week 1 Day 2
+
+## Variables
+
+* **Common variables**: `String`, `int`, `double`, `boolean`
+* **Primitive data types**: `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
+* **Non-Primitive data types**: `String`, `Array`, and `Classes`
+
+## Type Casting
+
+* **Widening Casting (implicit)**: converting smaller type → larger type size
+* **Narrowing Casting (explicit)**: converting larger type → smaller type size
+
+## Conditional Statements
+
+* `if`, `if-else`, `if-else-if`
+* `switch`
+
+## Loops
+
+* `for` loop
+* `while` loop
+
+## Examples for Practice
+
+1. Display student details using different data types.
+2. Display even and odd numbers using a `for` loop and `if-else` condition.
+3. Display weekdays using a `switch` case.
+
+
