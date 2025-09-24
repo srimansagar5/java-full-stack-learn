@@ -85,3 +85,70 @@ Happy coding ✨
 3. Display weekdays using a `switch` case.
 
 
+# Week 1 Day 3 – Classes & Objects
+
+## Topics Covered
+- **Fields (Attributes/Instance Variables)**  
+  Variables declared inside a class that hold object data.
+
+- **Constructor**  
+  Special method used to initialize objects when created using `new`.
+
+- **Static Methods**  
+  Belong to the class, not to individual objects. Called using the class name.
+
+- **Public Methods**  
+  Define the behavior of the class. Invoked by objects.
+
+- **Using `this` Keyword**  
+  Refers to the current object. Useful when parameter names and field names overlap.
+
+- **Creating Multiple Objects with Different Arguments**  
+  Demonstrates how different objects can have their own state and behavior.
+
+---
+
+## Examples & Practice
+
+### 1. **Calculator**
+- Fields: `value1`, `value2`
+- Methods: `add()`, `subtract()`, `multiply()`, `divide()`
+- Practice: Create different calculator objects and test all operations.
+
+### 2. **Bank Account**
+- Fields: `accountNumber`, `balance`
+- Methods: `deposit()`, `withdraw()`
+- Practice: Deposit and withdraw from the account, print updated balance.
+
+### 3. **Employee**
+- Fields: `id`, `name`, `basicSalary`
+- Methods: `calculateAnnualSalary()`
+- Practice: Display employee details with calculated annual salary.
+
+### 4. **Student**
+- Fields: `name`, `age`, `grade`
+- Methods: `displayDetails()`
+- Practice: Create multiple student objects and display their details.
+
+### 5. **Car**
+- Fields: `brand`, `model`, `year`
+- Methods: `start()`
+- Practice: Create multiple car objects and call the `start()` method.
+
+---
+
+## Mini Challenges
+1. Create 3 student objects with different details and display them.
+2. Create a bank account object, deposit money twice, withdraw once, and print final balance.
+3. Add 2 employees and compare who has the higher annual salary.
+4. Create 2 cars and call the `start()` method for each.
+5. Use the Calculator to divide numbers and handle division by zero safely.
+
+---
+
+## Learning Outcomes
+- Understand **class structure** in Java.
+- Differentiate between **fields, constructors, and methods**.
+- Learn to use the **`this` keyword**.
+- Gain confidence in creating and manipulating multiple objects.  
+
