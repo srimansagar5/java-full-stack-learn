@@ -1,0 +1,85 @@
+🔹 Easy (Basics & Understanding Concepts)
+(Goal: Practice syntax + simple design)
+
+Bank Account (Encapsulation)
+Create BankAccount with private fields accountNumber, balance.
+Add getters and controlled setters.
+Test deposit and withdrawal.
+
+Student Grades (Encapsulation)
+Student class with private fields name, grade.
+Use getter/setter with validation (A–F only).
+Display details.
+
+Vehicle Inheritance
+Base Vehicle class with method drive().
+Subclasses: Car, Bike → override drive().
+Store them in a Vehicle[] and loop.
+
+Shape Polymorphism
+Abstract Shape with method area().
+Subclasses: Circle, Rectangle, Triangle.
+Print areas using polymorphism.
+
+Employee Salary Update (Encapsulation + Method)
+Private salary.
+Method raiseSalary(percent) updates salary.
+Print details.
+
+🔹 Intermediate (Design with Inheritance & Abstraction)
+(Goal: Apply polymorphism, abstract classes, real-world scenarios)
+
+Employee Hierarchy
+Base Employee with calculateBonus().
+Subclasses: Manager, Developer, Intern (different bonus %).
+Use polymorphism to print bonuses.
+
+Library Management (Inheritance + Encapsulation)
+Base class LibraryItem (title, id).
+Subclasses: Book, Magazine, DVD.
+Method: displayDetails().
+Test polymorphism.
+
+Payment System (Abstraction)
+Abstract class Payment with pay(amount).
+Subclasses: CreditCardPayment, PayPalPayment, UPIPayment.
+Simulate different payments.
+
+Animal Sounds (Polymorphism)
+Base Animal with method makeSound().
+Subclasses: Dog, Cat, Cow.
+Loop through an Animal[] to call makeSound().
+
+Car Rental System
+Base Car with brand, rentPerDay.
+Subclasses: SUV, Sedan, Hatchback (different rental logic).
+Method: calculateRent(days).
+
+🔹 Advanced (Combining Concepts & Real-World Modeling)
+(Goal: Use abstraction + inheritance + encapsulation + polymorphism together)
+
+E-Commerce Order System
+Abstract class Product with price, name, getDiscountedPrice().
+Subclasses: Electronics, Clothing, Groceries (different discount rules).
+Simulate cart checkout.
+
+University Management System
+Base class Person with id, name.
+Subclasses: Student, Professor, Staff.
+Methods like getRoleDetails().
+Use encapsulation for sensitive fields (like salary).
+
+Online Learning Platform (Polymorphism)
+Abstract class Course with courseName, enrollStudent().
+Subclasses: FreeCourse, PaidCourse (different enrollment rules).
+Store courses in a Course[] and enroll.
+
+Bank Loan Processing
+Abstract class Loan with loanAmount, interestRate, calculateEMI().
+Subclasses: HomeLoan, CarLoan, PersonalLoan.
+Use polymorphism to calculate EMI.
+
+Smart Home Devices
+Abstract class Device with turnOn(), turnOff().
+Subclasses: Light, Fan, AC.
+Maintain a Device[] and simulate smart home operations.
