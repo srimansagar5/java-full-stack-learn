@@ -1,0 +1,55 @@
+Day 6: Collections (List, Set, Map)
+1. Introduction
+What are Collections? Why not just arrays?
+Difference between Collection and Collections (interface vs utility class).
+Iterable hierarchy (Iterable → Collection → List/Set/Queue, and Map separately).
+
+2. List
+Ordered, allows duplicates, index-based.
+Interfaces: List
+Implementations: ArrayList, LinkedList, Vector (legacy).
+Operations: add, get, remove, contains, size, forEach.
+Iteration: for loop, Iterator, forEach lambda.
+Mini Exercise (Easy):
+Store 5 student names in a List and print them in reverse order.
+
+3. Set
+No duplicates, no index.
+Interfaces: Set, SortedSet, NavigableSet.
+Implementations: HashSet, LinkedHashSet, TreeSet.
+Key differences: HashSet (unordered), LinkedHashSet (insertion order), TreeSet (sorted).
+Mini Exercise (Intermediate):
+Store 10 random numbers in a HashSet, remove duplicates, and print in sorted order using TreeSet.
+
+4. Map
+Stores key–value pairs.
+Interfaces: Map, SortedMap, NavigableMap.
+Implementations: HashMap, LinkedHashMap, TreeMap, Hashtable (legacy).
+Methods: put, get, containsKey, containsValue, entrySet, keySet.
+Mini Exercise (Intermediate):
+Store employee ID → employee name in a HashMap.
+Retrieve and print name for a given ID.
+
+5. Practical Comparisons
+ArrayList vs LinkedList
+HashSet vs TreeSet
+HashMap vs TreeMap
+
+6. Advanced Usage
+Custom objects in collections (overriding equals() & hashCode()).
+Iterating maps with forEach((k, v) -> ...).
+Using Collections utility methods: sort, shuffle, reverse.
+Mini Exercise (Advanced):
+Create a Product class (id, name, price).
+Store in a HashMap (id → Product).
+Write logic to:
+Find product by ID
+Sort products by price
+Remove duplicates based on name
+
+7. Weekend Challenge
+Library Management System
+Store list of books (title, author, ISBN).
+No duplicate ISBN allowed (use Set).
+Map student → list of borrowed books (use Map<String, List<Book>>).
+Implement borrow and return methods.
