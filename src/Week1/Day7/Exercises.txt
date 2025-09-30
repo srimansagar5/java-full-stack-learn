@@ -1,0 +1,23 @@
+Easy (List/Set/Map basics)
+    Create a List of 5 colors, print them using a for loop.
+    Create a List of integers, remove the 3rd element, and print again.
+    Store 5 unique cities in a HashSet and print them.
+    Add duplicate values to a HashSet and show that duplicates are ignored.
+    Create a HashMap of 3 students (ID → name) and print each entry.
+
+Intermediate (Iteration & operations)
+    Store 10 integers in an ArrayList, then print only even numbers.
+    Use an Iterator to traverse a HashSet of fruits.
+    Create a HashMap of employee IDs and names. Print only the keys.
+    Create a LinkedHashSet of book titles, demonstrate insertion order.
+    Remove a student from the HashMap by ID and print updated map.
+
+Advanced (Custom objects + combined usage)
+    Create a Product class (id, name, price). Store 5 products in an ArrayList and print all.
+    Store student roll numbers in a TreeSet and print them in sorted order.
+    Create a HashMap of student → list of subjects (use List<String> as value).
+    Implement a HashMap<Integer, Product> where ID is the key, and retrieve product details by ID.
+    Write a small Library System:
+        Use a Set to ensure no duplicate ISBNs.
+        Use a Map<String, List<String>> to store student → borrowed books.
+        Implement borrow/return operations.
